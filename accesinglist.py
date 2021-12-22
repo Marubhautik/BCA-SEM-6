@@ -1,8 +1,0 @@
-List = ["Python", "For", "Programmers"]  
-print("Accessing element from the list")  
-print(List[0])   
-print(List[2])
-
-print("Accessing element using negative indexing")  
-print(List[-1])   
-print(List[-3]) 
