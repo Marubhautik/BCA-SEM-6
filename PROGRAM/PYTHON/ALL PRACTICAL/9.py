@@ -1,13 +1,15 @@
 # WAP for if , elif , else
-var1=input("Enter value")
-#var1 = 1+2j
-if):
-    print("Type of the variable is Integer")
-elif (type(var1) == float):
-    print("Type of the variable is Float")
-elif (type(var1) == complex):
-    print("Type of the variable is Complex")
-elif (type(var1) == str):
-    print("Type of the variable is String")
-else:
-    print("Type of the variable is Unknown")
+a = int(input("Enter first number"))
+b = int(input("Enter second number"))
+if b > a:
+  print("b is greater than a")
+elif a > b:
+    print("a is greater than b")
+elif a == b:
+  print("a and b are equal")
+'''
+Enter first number35
+Enter second number33
+a is greater than b
+
+'''
