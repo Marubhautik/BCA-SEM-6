@@ -1,4 +1,4 @@
-import socket
+import pr
 
 s= socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 print(s)
