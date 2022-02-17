@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onTimeSet(TimePicker view, int hourofday, int minute) {
                             Time time = new Time(hourofday, minute, 0);
-                            SimpleDateFormat sdf = new SimpleDateFormat("h:mm");
+                            SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss");
                             edt.setText(sdf.format(time));
                         }
                     }, 0, 0, false);
